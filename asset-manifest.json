@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/food-shop/static/css/main.d472ba32.css",
+    "main.js": "/food-shop/static/js/main.4ba0b386.js",
+    "static/media/logo.jpg": "/food-shop/static/media/logo.59282063aebe9f2f63c6.jpg",
+    "index.html": "/food-shop/index.html",
+    "main.d472ba32.css.map": "/food-shop/static/css/main.d472ba32.css.map",
+    "main.4ba0b386.js.map": "/food-shop/static/js/main.4ba0b386.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d472ba32.css",
+    "static/js/main.4ba0b386.js"
+  ]
+}
