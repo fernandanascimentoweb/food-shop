@@ -1,0 +1,211 @@
+
+.cart-carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cart-carrinho h5 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.card-frase{
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px;
+    height: 45vh;
+}
+
+.card-frase i {
+    font-size: 45px;
+    color: #d5d6d8;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.card-frase p {
+    margin-bottom: 0;
+    color: #bdbdbd;
+    font-size: 16px;
+}
+
+
+.cart-carrinho button {
+    padding: 15px 20px;
+    border-radius: 20px;
+    background-color: tomato;
+    color: #FFF;
+    opacity: 1;
+    transition: .2s;
+}
+
+.cart-carrinho button:hover, .btn-trash button:hover{
+    opacity: 0.8;
+}
+
+.btn-trash button {
+    padding: 15px 20px;
+    border-radius: 50%;
+    color: #FFF;
+    opacity: 1;
+    transition: .2s;
+    background-color: rgb(196, 22, 22);
+}
+
+.negrito {
+    font-size: 18px;
+    color: tomato;
+    font-weight: 800;
+}
+
+.card-body{
+    overflow-x: auto;
+}
+
+table {
+    margin-left: 80px;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    text-align: center;
+}
+
+.tr-table2{
+    background-color: #555;
+    color: #FFF;
+    height: 50px;
+}
+
+.tr-table2 th {
+    padding: 10px 60px;
+}
+
+.product-img img {
+    width: 120px;
+    height: 60px;
+    border-radius: 4px;
+}
+
+.btn-input{
+    display: flex;
+    gap: 5px;
+}
+
+.text-caixa{
+    max-width: 70px;
+    padding: 0px 5px;
+    min-height: 40px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0px 5px;
+    color: #475F7B;
+    font-weight: 800;
+    background-color: #FFF;
+    border: 1px solid #DFE3E7;
+}
+
+.btn-menos, .btn-mais{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5a8dee2e;
+    color: #214790;
+    font-size: 11px;
+    transition: 0.3s;
+}
+
+.btn-mais:hover, .btn-menos:hover{
+    background-color: #5a8dee;
+    color: #fff;
+}
+
+tfoot{
+    background-color: #555;
+    height: 80px;
+}
+
+.text-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.text-right p{ 
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+.text-danger{
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+}
+
+/* logo */
+
+.logo-top{
+    width: 90%;
+    height: 600px;
+    padding: 2px 4%;
+}
+
+
+.container h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-top: 30px;
+}
+
+/* footer  */
+
+.footer {
+    background-color: #000;
+    height: 50px;
+    padding: 10px;
+    position: fixed;
+}
+
+.footer h2{
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    padding: 15px;
+}
+
+@media(max-width:768px) {
+    .container h2{
+        font-size: 26px;
+    }
+    .cart-carrinho{
+        padding: 20px 4%;
+    }
+    .cart-carrinho h5{
+        font-size: 22px;
+    }
+    table {
+        padding: 10px 8%;
+        margin: 0;
+    }
+    .text-danger{
+        font-size: 15px;
+    }
+    .text-right p {
+        font-size: 14px;
+    }
+}
+
+
+
+
